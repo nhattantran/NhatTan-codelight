@@ -56,8 +56,8 @@ const  emporia = (matrix, row, col, startRow, startCol) => {
         return arr.slice();
     });
     tmpMat[startRow][startCol] = - 1;
-    console.log(startRow, startCol);
-    printMat(tmpMat);
+    //console.log(startRow, startCol);
+    //printMat(tmpMat);
     if (startRow + 1 < row ) {
         if  (tmpMat[startRow + 1][startCol] != 1 && tmpMat[startRow + 1][startCol] != -1) {
             if (tmpMat[startRow + 1][startCol] == 3) {
